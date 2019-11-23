@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Iqra University Portal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wXL-eB-puf">
+                                <rect key="frame" x="80" y="145.5" width="254" height="31.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="download" translatesAutoresizingMaskIntoConstraints="NO" id="1g7-D3-dF4">
+                                <rect key="frame" x="94.5" y="311" width="225" height="225"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Developed by Shaheer © " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.20000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="6RN-Vt-pLp">
+                                <rect key="frame" x="119" y="751" width="176" height="18"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.25256052610000002" blue="0.49764239789999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6RN-Vt-pLp" secondAttribute="trailing" constant="119" id="3US-fF-er1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wXL-eB-puf" secondAttribute="trailing" constant="80" id="4Qi-B8-WoX"/>
+                            <constraint firstItem="6RN-Vt-pLp" firstAttribute="top" secondItem="1g7-D3-dF4" secondAttribute="bottom" constant="215" id="6pm-gH-reK"/>
+                            <constraint firstItem="1g7-D3-dF4" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="AcU-cY-N1Z"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1g7-D3-dF4" secondAttribute="trailing" constant="94.5" id="AoN-SE-67h"/>
+                            <constraint firstItem="wXL-eB-puf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="101.5" id="Cqc-2Z-y2k"/>
+                            <constraint firstItem="6RN-Vt-pLp" firstAttribute="top" secondItem="1g7-D3-dF4" secondAttribute="bottom" constant="215" id="Dn9-sa-Ahd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6RN-Vt-pLp" secondAttribute="trailing" constant="119" id="Dxg-m7-hiD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6RN-Vt-pLp" secondAttribute="bottom" constant="93" id="F9j-F9-VfF"/>
+                            <constraint firstItem="6RN-Vt-pLp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="119" id="FK6-Ho-izD"/>
+                            <constraint firstItem="1g7-D3-dF4" firstAttribute="top" secondItem="wXL-eB-puf" secondAttribute="bottom" constant="134" id="FyU-ZO-iDJ"/>
+                            <constraint firstItem="1g7-D3-dF4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="94.5" id="KXv-pg-1Wf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wXL-eB-puf" secondAttribute="trailing" constant="80" id="KZ5-Ks-3qM"/>
+                            <constraint firstItem="1g7-D3-dF4" firstAttribute="top" secondItem="wXL-eB-puf" secondAttribute="bottom" constant="134" id="LvE-be-eZp"/>
+                            <constraint firstItem="6RN-Vt-pLp" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="N2H-Ly-d37"/>
+                            <constraint firstItem="wXL-eB-puf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="RI2-T0-ZjL"/>
+                            <constraint firstItem="1g7-D3-dF4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="94.5" id="Ysh-Cv-El7"/>
+                            <constraint firstItem="wXL-eB-puf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="cWE-3w-16l"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6RN-Vt-pLp" secondAttribute="bottom" constant="93" id="g63-s9-bwv"/>
+                            <constraint firstItem="wXL-eB-puf" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="jO7-wd-RyY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1g7-D3-dF4" secondAttribute="trailing" constant="94.5" id="jvx-ZK-xku"/>
+                            <constraint firstItem="6RN-Vt-pLp" firstAttribute="top" secondItem="1g7-D3-dF4" secondAttribute="bottom" constant="215" id="mNn-Lu-Ijy"/>
+                            <constraint firstItem="1g7-D3-dF4" firstAttribute="top" secondItem="wXL-eB-puf" secondAttribute="bottom" constant="134" id="pyH-9r-k8X"/>
+                            <constraint firstItem="6RN-Vt-pLp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="119" id="yVb-Ej-xj6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="download" width="225" height="225"/>
+    </resources>
+</document>
